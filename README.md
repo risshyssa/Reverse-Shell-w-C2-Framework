@@ -15,7 +15,9 @@ A Python based C2 framework that demonstrates:
 # SYSTEM
 
 Keychain -> can generate the RSA key to pair with the implant 
+
 |___ private_key.pem (on C2 server) 
+
 |___ public_key.pem (on the Host server) 
 
 Implant -> runs on the target 
