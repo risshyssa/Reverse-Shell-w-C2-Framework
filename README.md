@@ -29,5 +29,7 @@ Implant -> runs on the target
 |___ Sends/receives the encrypted terminal 
 
 C2 Beacon -> runs on the host machine 
+
 |___ Listens for incoming connections from the implant 
+
 |___ Provides the command shell 
