@@ -22,9 +22,10 @@ Keychain -> can generate the RSA key to pair with the implant
 
 Implant -> runs on the target 
 
-|___ 
-Will perform the RSA handshake with C2 
+|___ Will perform the RSA handshake with C2 
+
 |___ Encrypts the AES encrypted with RSA 
+
 |___ Sends/receives the encrypted terminal 
 
 C2 Beacon -> runs on the host machine 
