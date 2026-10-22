@@ -21,7 +21,9 @@ Keychain -> can generate the RSA key to pair with the implant
 |___ public_key.pem (on the Host server) 
 
 Implant -> runs on the target 
-|___ Will perform the RSA handshake with C2 
+
+|___ 
+Will perform the RSA handshake with C2 
 |___ Encrypts the AES encrypted with RSA 
 |___ Sends/receives the encrypted terminal 
 
